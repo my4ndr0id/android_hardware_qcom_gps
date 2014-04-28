@@ -29,6 +29,7 @@ LOCAL_COPY_HEADERS := inc/loc_api_rpcgen_rpc.h
 LOCAL_COPY_HEADERS += inc/loc_api_rpcgen_common_rpc.h
 LOCAL_COPY_HEADERS += inc/loc_api_rpcgen_cb_rpc.h
 LOCAL_COPY_HEADERS += inc/loc_apicb_appinit.h
+LOCAL_COPY_HEADERS += inc/commondefs_rpcgen_rpc.h
 
 LOCAL_LDLIBS += -lpthread
 LOCAL_PRELINK_MODULE := false
